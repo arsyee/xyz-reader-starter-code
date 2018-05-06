@@ -25,6 +25,8 @@
 
     <style name="Theme.Bacon.CardStyle" parent="@style/Theme.Bacon">
         <item name="android:maxLines">2</item>
+        <item name="android:minLines">2</item>
+        <item name="android:gravity">center_vertical</item>
         <item name="android:ellipsize">end</item>
     </style>
 
