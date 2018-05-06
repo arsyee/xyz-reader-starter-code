@@ -18,11 +18,25 @@
 <resources>
 
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-
     </style>
 
-    <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
+    <style name="Theme.Bacon.Detail" parent="@style/Theme.Bacon">
+    </style>
+
+    <style name="Theme.Bacon.CardStyle" parent="@style/Theme.Bacon">
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="Theme.Bacon.CardStyle.Title" parent="@style/Theme.Bacon.CardStyle">
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/card_title_textsize</item>
+    </style>
+
+    <style name="Theme.Bacon.CardStyle.Subtitle" parent="@style/Theme.Bacon.CardStyle">
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">@dimen/card_subtitle_textsize</item>
     </style>
 
 </resources>

@@ -16,8 +16,6 @@
 -->
 
 <resources>
-    <color name="photo_placeholder">#ccc</color>
-
     <color name="colorPrimaryLight">#BA68C8</color>
     <color name="colorPrimary">#9C27B0</color>
     <color name="colorPrimaryDark">#7B1FA2</color>
