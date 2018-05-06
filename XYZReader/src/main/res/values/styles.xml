@@ -41,4 +41,8 @@
         <item name="android:textSize">@dimen/card_subtitle_textsize</item>
     </style>
 
+    <style name="Theme.Bacon.Frame">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
 </resources>
