@@ -185,6 +185,7 @@ public class ArticleListActivity extends AppCompatActivity implements
                     mCursor.getString(ArticleLoader.Query.THUMB_URL),
                     ImageLoaderHelper.getInstance(ArticleListActivity.this).getImageLoader());
             holder.thumbnailView.setAspectRatio(mCursor.getFloat(ArticleLoader.Query.ASPECT_RATIO));
+            holder.thumbnailView.setContentDescription(getResources().getString(R.string.cover_picture_for, mCursor.getString(ArticleLoader.Query.TITLE)));
         }
 
         @Override

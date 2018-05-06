@@ -9,4 +9,7 @@
 
     <string name="up">Up</string>
 
+    <string name="cover_picture">Cover picture</string>
+    <string name="cover_picture_for">Cover picture for %s</string>
+
 </resources>
