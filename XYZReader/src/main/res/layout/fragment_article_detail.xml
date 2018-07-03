@@ -33,23 +33,28 @@
 
                 <TextView
                     android:id="@+id/article_title"
-                    style="?android:attr/textAppearanceLarge"
+                    style="@style/Theme.Bacon.Frame"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="sans-serif-condensed"
                     android:lineSpacingMultiplier="0.9"
-                    app:layout_collapseMode="none"
+                    app:layout_collapseMode="parallax"
+                    android:paddingTop="@dimen/detail_metabar_title_top_padding"
                     android:paddingBottom="@dimen/detail_metabar_title_bottom_padding"
+                    android:paddingStart="64dp"
+                    android:paddingEnd="64dp"
                     android:textColor="#fff"
-                    android:textSize="@dimen/detail_title_text_size"
                     android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/article_byline"
-                    style="?android:attr/textAppearanceSmall"
-                    android:layout_width="wrap_content"
+                    style="@style/Theme.Bacon.Frame.Small"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:layout_collapseMode="none"
+                    android:paddingStart="64dp"
+                    android:paddingEnd="64dp"
+                    android:paddingBottom="@dimen/detail_metabar_title_top_padding"
+                    app:layout_collapseMode="parallax"
                     android:textColor="#8fff" />
             </LinearLayout>
 

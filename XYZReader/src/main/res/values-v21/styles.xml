@@ -2,6 +2,12 @@
 <resources>
     <style name="Theme.Bacon.Frame">
         <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <style name="Theme.Bacon.Frame.Small" parent="@style/Theme.Bacon.Frame">
+        <item name="android:textSize">12sp</item>
         <item name="android:elevation">8dp</item>
     </style>
 </resources>
