@@ -10,5 +10,6 @@
 
     <dimen name="card_title_textsize">16sp</dimen>
     <dimen name="card_subtitle_textsize">14sp</dimen>
+    <dimen name="actionBarSize">112dp</dimen>
 
 </resources>

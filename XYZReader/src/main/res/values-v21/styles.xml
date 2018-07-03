@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="Theme.Bacon.Detail" parent="@style/Theme.Bacon">
-        <item name="android:statusBarColor">@android:color/transparent</item>
-    </style>
-
     <style name="Theme.Bacon.Frame">
         <item name="android:background">@color/colorPrimary</item>
         <item name="android:elevation">8dp</item>
