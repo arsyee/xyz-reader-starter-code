@@ -13,7 +13,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="8dp"
         android:orientation="vertical">
 
         <com.example.xyzreader.ui.DynamicHeightNetworkImageView
@@ -22,12 +21,15 @@
             android:layout_gravity="center_horizontal"
             android:scaleType="centerCrop"
             android:contentDescription="@string/cover_picture"
-            android:layout_width="100dp"
-            android:layout_height="100dp"/>
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
 
         <TextView
             android:id="@+id/article_title"
             style="@style/Theme.Bacon.CardStyle.Title"
+            android:paddingTop="8dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="Title" />
@@ -35,6 +37,7 @@
         <TextView
             android:id="@+id/article_subtitle"
             style="@style/Theme.Bacon.CardStyle.Subtitle"
+            android:padding="8dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="Subtitle\n2nd row" />
